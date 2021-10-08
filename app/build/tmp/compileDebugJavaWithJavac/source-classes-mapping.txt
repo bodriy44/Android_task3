@@ -1,31 +1,31 @@
-com/example/myapplication/presenter/MainPresenter.java
- com.example.myapplication.presenter.MainPresenter
-com/example/myapplication/view/fragment/NoteCreateFragment.java
- com.example.myapplication.view.fragment.NoteCreateFragment
-com/example/myapplication/view/About.java
- com.example.myapplication.view.About
-com/example/myapplication/view/OnNoteClickListener.java
- com.example.myapplication.view.OnNoteClickListener
-com/example/myapplication/view/fragment/NoteFragment.java
- com.example.myapplication.view.fragment.NoteFragment
-com/example/myapplication/view/ViewInterface.java
- com.example.myapplication.view.ViewInterface
+com/example/myapplication/model/Note.java
+ com.example.myapplication.model.Note
+com/example/myapplication/view/AboutActivity.java
+ com.example.myapplication.view.AboutActivity
 com/example/myapplication/BuildConfig.java
  com.example.myapplication.BuildConfig
-com/example/myapplication/view/NoteFragmentInterface.java
- com.example.myapplication.view.NoteFragmentInterface
+com/example/myapplication/view/OnNoteClickListener.java
+ com.example.myapplication.view.OnNoteClickListener
 com/example/myapplication/adapter/NoteAdapter.java
  com.example.myapplication.adapter.NoteAdapter
  com.example.myapplication.adapter.NoteAdapter$ViewHolder
-com/example/myapplication/view/MainActivity.java
- com.example.myapplication.view.MainActivity
 com/example/myapplication/model/MainModel.java
  com.example.myapplication.model.MainModel
-com/example/myapplication/view/NoteCreateFragmentInterface.java
- com.example.myapplication.view.NoteCreateFragmentInterface
-com/example/myapplication/view/RecyclerViewFragmentInterface.java
- com.example.myapplication.view.RecyclerViewFragmentInterface
-com/example/myapplication/model/Note.java
- com.example.myapplication.model.Note
-com/example/myapplication/view/fragment/RecyclerViewFragment.java
- com.example.myapplication.view.fragment.RecyclerViewFragment
+com/example/myapplication/view/fragment/IRecyclerViewFragment.java
+ com.example.myapplication.view.fragment.IRecyclerViewFragment
+com/example/myapplication/presenter/MainPresenter.java
+ com.example.myapplication.presenter.MainPresenter
+com/example/myapplication/view/IMainView.java
+ com.example.myapplication.view.IMainView
+com/example/myapplication/view/fragment/INoteFragment.java
+ com.example.myapplication.view.fragment.INoteFragment
+com/example/myapplication/view/INoteCreateFragment.java
+ com.example.myapplication.view.INoteCreateFragment
+com/example/myapplication/view/INoteFragment.java
+ com.example.myapplication.view.INoteFragment
+com/example/myapplication/view/fragment/INoteCreateFragment.java
+ com.example.myapplication.view.fragment.INoteCreateFragment
+com/example/myapplication/view/MainActivity.java
+ com.example.myapplication.view.MainActivity
+com/example/myapplication/view/IRecyclerViewFragment.java
+ com.example.myapplication.view.IRecyclerViewFragment

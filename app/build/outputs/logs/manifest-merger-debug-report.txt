@@ -80,10 +80,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\1\
 		ADDED from C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-51
-activity#com.example.myapplication.view.About
-ADDED from C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-57
+activity#com.example.myapplication.view.AboutActivity
+ADDED from C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-65
 	android:name
-		ADDED from C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:19-45
+		ADDED from C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:19-53
 activity#com.example.myapplication.view.MainActivity
 ADDED from C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name

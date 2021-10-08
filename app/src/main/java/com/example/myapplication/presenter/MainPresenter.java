@@ -2,15 +2,15 @@ package com.example.myapplication.presenter;
 
 import com.example.myapplication.model.MainModel;
 import com.example.myapplication.model.Note;
-import com.example.myapplication.view.ViewInterface;
+import com.example.myapplication.view.IMainView;
 
 import java.util.List;
 
 public class MainPresenter {
-    private ViewInterface view;
+    private IMainView view;
     private final MainModel model;
 
-    public MainPresenter(ViewInterface view) {
+    public MainPresenter(IMainView view) {
         this.view = view;
         this.model = new MainModel();
     }

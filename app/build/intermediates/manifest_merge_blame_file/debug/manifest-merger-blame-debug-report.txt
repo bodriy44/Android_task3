@@ -28,9 +28,9 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.MyApplication" >
 20-->C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-51
-21        <activity android:name="com.example.myapplication.view.About" />
-21-->C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-57
-21-->C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:19-45
+21        <activity android:name="com.example.myapplication.view.AboutActivity" />
+21-->C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-65
+21-->C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:19-53
 22        <activity android:name="com.example.myapplication.view.MainActivity" >
 22-->C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:9-19:20
 22-->C:\Users\1\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:19-52

@@ -5,19 +5,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.myapplication.R;
-import com.example.myapplication.view.fragment.NoteCreateFragment;
-import com.example.myapplication.view.fragment.NoteFragment;
-import com.example.myapplication.view.fragment.RecyclerViewFragment;
+import com.example.myapplication.view.fragment.INoteCreateFragment;
+import com.example.myapplication.view.fragment.INoteFragment;
+import com.example.myapplication.view.fragment.IRecyclerViewFragment;
 import com.example.myapplication.model.Note;
 import com.example.myapplication.presenter.MainPresenter;
 
 
-public class MainActivity extends AppCompatActivity implements  ViewInterface {
+public class MainActivity extends AppCompatActivity implements IMainView {
 
     public MainPresenter presenter;
-    private NoteCreateFragment noteCreateFragment;
-    public NoteFragment noteFragment;
-    public RecyclerViewFragment recyclerViewFragment;
+    private INoteCreateFragment noteCreateFragment;
+    public INoteFragment noteFragment;
+    public IRecyclerViewFragment recyclerViewFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,15 +25,13 @@ public class MainActivity extends AppCompatActivity implements  ViewInterface {
         setContentView(R.layout.activity_main);
 
         presenter = new MainPresenter(this);
-        noteCreateFragment = new NoteCreateFragment();
-        noteFragment = new NoteFragment();
-        recyclerViewFragment = new RecyclerViewFragment();
-
+        noteCreateFragment = new INoteCreateFragment();
+        noteFragment = new INoteFragment();
+        recyclerViewFragment = new IRecyclerViewFragment();
 
         getSupportFragmentManager().beginTransaction()
                 .add(R.id.fragmentContainerView, recyclerViewFragment)
                 .commit();
-
     }
 
     @Override
@@ -42,7 +40,6 @@ public class MainActivity extends AppCompatActivity implements  ViewInterface {
         recyclerViewFragment.setNotes(presenter.getNotes());
     }
 
-
     @Override
     public void showCreateFragment() {
         getSupportFragmentManager().beginTransaction()
@@ -50,7 +47,6 @@ public class MainActivity extends AppCompatActivity implements  ViewInterface {
                 .addToBackStack(null)
                 .commit();
     }
-
 
     @Override
     public void showNote(Note note) {
@@ -67,6 +63,5 @@ public class MainActivity extends AppCompatActivity implements  ViewInterface {
                 .replace(R.id.fragmentContainerView, recyclerViewFragment)
                 .commit();
     }
-
 }
 
