@@ -44,10 +44,10 @@ public class NoteFragment extends Fragment implements NoteFragmentInterface {
         super.onStart();
 
         // Удалить заметку
-        ((FloatingActionButton) getActivity().findViewById(R.id.floatingActionButton2)).setOnClickListener((v) -> this.deleteNote(this.note));
+        ((FloatingActionButton) getActivity().findViewById(R.id.floatingActionButtonDelete)).setOnClickListener((v) -> this.deleteNote(this.note));
 
         // Поделиться заметкой
-        ((FloatingActionButton) getActivity().findViewById(R.id.floatingActionButton)).setOnClickListener((v) -> this.shareNote());
+        ((FloatingActionButton) getActivity().findViewById(R.id.floatingActionButtonShare)).setOnClickListener((v) -> this.shareNote());
         ((TextView) getActivity().findViewById(R.id.NoteTitle)).setText(note.getHeader());
         ((TextView) getActivity().findViewById(R.id.NoteDate)).setText(note.getDate());
         ((TextView) getActivity().findViewById(R.id.NoteText)).setText(note.getBody());

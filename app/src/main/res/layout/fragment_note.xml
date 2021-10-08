@@ -7,7 +7,7 @@
     tools:context=".view.fragment.NoteFragment">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/floatingActionButtonShare"
         android:layout_width="@dimen/floating_action_button_layout_width"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
@@ -21,7 +21,7 @@
         android:layout_marginRight="@dimen/fragment_note_margin" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/floatingActionButtonDelete"
         android:layout_width="@dimen/floating_action_button_layout_width"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|start"

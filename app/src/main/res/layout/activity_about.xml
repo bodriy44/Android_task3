@@ -7,7 +7,7 @@
     tools:context=".view.About">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/aboutInfo"
         android:layout_width="@dimen/text_view_layout_width"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/text_view_layout_margin"

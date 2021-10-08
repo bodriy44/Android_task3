@@ -1305,6 +1305,11 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen floating_action_button_layout_width
+dimen fragment_note_create_margin_top
+dimen fragment_note_margin
+dimen fragment_note_text_view_text_size
+dimen fragment_note_text_view_text_size2
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1315,6 +1320,8 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen layout_constraintHorizontal_bias
+dimen layout_constraintVertical_bias
 dimen material_clock_display_padding
 dimen material_clock_face_margin_top
 dimen material_clock_hand_center_dot_radius
@@ -1542,7 +1549,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen recycler_item_text_size
 dimen test_mtrl_calendar_day_cornerSize
+dimen text_view_layout_margin
+dimen text_view_layout_width
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1706,6 +1716,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id aboutInfo
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1779,7 +1790,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1863,9 +1873,9 @@ id fitToContents
 id fixed
 id flip
 id floating
-id floatingActionButton
-id floatingActionButton2
-id floatingActionButton3
+id floatingActionButtonAddNote
+id floatingActionButtonDelete
+id floatingActionButtonShare
 id forever
 id fragmentContainerView
 id fragment_container_view_tag
@@ -2000,6 +2010,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saveButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2081,7 +2092,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView1
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2301,6 +2311,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string about_info
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2315,6 +2326,10 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fragment_note
+string fragment_note_create_save
+string fragment_note_date
+string fragment_note_text
+string fragment_note_title
 string fragment_recycler
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description

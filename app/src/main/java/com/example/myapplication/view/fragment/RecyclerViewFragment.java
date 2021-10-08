@@ -32,7 +32,7 @@ public class RecyclerViewFragment extends Fragment implements RecyclerViewFragme
         View inflate = inflater.inflate(R.layout.fragment_recycler, container, false);
         adapter = new NoteAdapter(this);
         ((RecyclerView) inflate.findViewById(R.id.recyclerView)).setAdapter(adapter);
-        ((FloatingActionButton) inflate.findViewById(R.id.floatingActionButton3)).setOnClickListener((v) -> this.createNote());
+        ((FloatingActionButton) inflate.findViewById(R.id.floatingActionButtonAddNote)).setOnClickListener((v) -> this.createNote());
 
         return inflate;
     }

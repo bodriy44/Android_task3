@@ -1304,6 +1304,11 @@ int dimen disabled_alpha_material_light 0x7f06008f
 int dimen fastscroll_default_thickness 0x7f060090
 int dimen fastscroll_margin 0x7f060091
 int dimen fastscroll_minimum_range 0x7f060092
+int dimen floating_action_button_layout_width 0x7f06018d
+int dimen fragment_note_create_margin_top 0x7f060191
+int dimen fragment_note_margin 0x7f06018e
+int dimen fragment_note_text_view_text_size 0x7f06018f
+int dimen fragment_note_text_view_text_size2 0x7f060190
 int dimen highlight_alpha_material_colored 0x7f060093
 int dimen highlight_alpha_material_dark 0x7f060094
 int dimen highlight_alpha_material_light 0x7f060095
@@ -1314,6 +1319,8 @@ int dimen hint_pressed_alpha_material_light 0x7f060099
 int dimen item_touch_helper_max_drag_scroll_per_frame 0x7f06009a
 int dimen item_touch_helper_swipe_escape_max_velocity 0x7f06009b
 int dimen item_touch_helper_swipe_escape_velocity 0x7f06009c
+int dimen layout_constraintHorizontal_bias 0x7f060189
+int dimen layout_constraintVertical_bias 0x7f06018a
 int dimen material_clock_display_padding 0x7f06009d
 int dimen material_clock_face_margin_top 0x7f06009e
 int dimen material_clock_hand_center_dot_radius 0x7f06009f
@@ -1541,7 +1548,10 @@ int dimen notification_small_icon_size_as_large 0x7f06017c
 int dimen notification_subtext_size 0x7f06017d
 int dimen notification_top_pad 0x7f06017e
 int dimen notification_top_pad_large_text 0x7f06017f
+int dimen recycler_item_text_size 0x7f060192
 int dimen test_mtrl_calendar_day_cornerSize 0x7f060180
+int dimen text_view_layout_margin 0x7f06018b
+int dimen text_view_layout_width 0x7f06018c
 int dimen tooltip_corner_radius 0x7f060181
 int dimen tooltip_horizontal_padding 0x7f060182
 int dimen tooltip_margin 0x7f060183
@@ -1705,6 +1715,7 @@ int id SHOW_PROGRESS 0x7f08000a
 int id SYM 0x7f08000b
 int id TOP_END 0x7f08000c
 int id TOP_START 0x7f08000d
+int id aboutInfo 0x7f0801ba
 int id accelerate 0x7f08000e
 int id accessibility_action_clickable_span 0x7f08000f
 int id accessibility_custom_action_0 0x7f080010
@@ -1778,7 +1789,6 @@ int id beginning 0x7f080053
 int id blocking 0x7f080054
 int id bottom 0x7f080055
 int id bounce 0x7f080056
-int id button 0x7f080057
 int id buttonPanel 0x7f080058
 int id cache_measures 0x7f080059
 int id cancel_button 0x7f08005a
@@ -1862,9 +1872,9 @@ int id fitToContents 0x7f0800a6
 int id fixed 0x7f0800a7
 int id flip 0x7f0800a8
 int id floating 0x7f0800a9
-int id floatingActionButton 0x7f0801b6
-int id floatingActionButton2 0x7f0801b8
-int id floatingActionButton3 0x7f0801b9
+int id floatingActionButtonAddNote 0x7f0801bb
+int id floatingActionButtonDelete 0x7f0801bc
+int id floatingActionButtonShare 0x7f0801bd
 int id forever 0x7f0800aa
 int id fragmentContainerView 0x7f0801b0
 int id fragment_container_view_tag 0x7f0800ab
@@ -1999,6 +2009,7 @@ int id right_icon 0x7f08012c
 int id right_side 0x7f08012d
 int id rounded 0x7f08012e
 int id row_index_key 0x7f08012f
+int id saveButton 0x7f0801be
 int id save_non_transition_alpha 0x7f080130
 int id save_overlay_view 0x7f080131
 int id sawtooth 0x7f080132
@@ -2080,7 +2091,6 @@ int id textSpacerNoButtons 0x7f08017e
 int id textSpacerNoTitle 0x7f08017f
 int id textStart 0x7f080180
 int id textTop 0x7f080181
-int id textView1 0x7f080182
 int id text_input_end_icon 0x7f080183
 int id text_input_error_icon 0x7f080184
 int id text_input_start_icon 0x7f080185
@@ -2300,6 +2310,7 @@ int string abc_searchview_description_voice 0x7f0e0017
 int string abc_shareactionprovider_share_with 0x7f0e0018
 int string abc_shareactionprovider_share_with_application 0x7f0e0019
 int string abc_toolbar_collapse_description 0x7f0e001a
+int string about_info 0x7f0e0067
 int string app_name 0x7f0e001b
 int string appbar_scrolling_view_behavior 0x7f0e001c
 int string bottom_sheet_behavior 0x7f0e001d
@@ -2314,6 +2325,10 @@ int string exposed_dropdown_menu_content_description 0x7f0e0025
 int string fab_transformation_scrim_behavior 0x7f0e0026
 int string fab_transformation_sheet_behavior 0x7f0e0027
 int string fragment_note 0x7f0e0028
+int string fragment_note_create_save 0x7f0e006b
+int string fragment_note_date 0x7f0e006c
+int string fragment_note_text 0x7f0e006d
+int string fragment_note_title 0x7f0e006e
 int string fragment_recycler 0x7f0e0029
 int string hide_bottom_view_on_scroll_behavior 0x7f0e002a
 int string icon_content_description 0x7f0e002b

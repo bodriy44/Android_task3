@@ -38,7 +38,7 @@ public class NoteCreateFragment extends Fragment implements NoteCreateFragmentIn
     public void onStart() {
         super.onStart();
 
-        getActivity().findViewById(R.id.button).setOnClickListener((v) -> this.addNote());
+        getActivity().findViewById(R.id.saveButton).setOnClickListener((v) -> this.addNote());
 
         // Очищаем поля ввода
         ((EditText) getActivity().findViewById(R.id.editTextTitle)).setText("");
