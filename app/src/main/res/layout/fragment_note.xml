@@ -8,31 +8,31 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
-        android:layout_width="55dp"
+        android:layout_width="@dimen/floating_action_button_layout_width"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="@dimen/fragment_note_margin"
+        android:layout_marginBottom="@dimen/fragment_note_margin"
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_menu_share"
-        android:layout_marginRight="32dp" />
+        android:layout_marginRight="@dimen/fragment_note_margin" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton2"
-        android:layout_width="55dp"
+        android:layout_width="@dimen/floating_action_button_layout_width"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|start"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginStart="@dimen/fragment_note_margin"
+        android:layout_marginBottom="@dimen/fragment_note_margin"
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_menu_delete"
-        android:layout_marginLeft="32dp" />
+        android:layout_marginLeft="@dimen/fragment_note_margin" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,22 +44,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Заголовок"
-            android:textSize="24sp" />
+            android:text="@string/fragment_note_title"
+            android:textSize="@dimen/fragment_note_text_view_text_size" />
 
         <TextView
             android:id="@+id/NoteDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="right"
-            android:text="Дата" />
+            android:text="@string/fragment_note_date"
+            tools:ignore="RtlHardcoded" />
 
         <TextView
             android:id="@+id/NoteText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Текст"
-            android:textSize="16sp" />
+            android:text="@string/fragment_note_text"
+            android:textSize="@dimen/fragment_note_text_view_text_size2" />
     </LinearLayout>
 
 </FrameLayout>

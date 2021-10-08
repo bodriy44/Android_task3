@@ -16,16 +16,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
-            android:hint="Заголовок"
-            android:textSize="24sp" />
+            android:hint="@string/fragment_note_title"
+            android:textSize="@dimen/fragment_note_text_view_text_size" />
 
         <TextView
             android:id="@+id/date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:hint="Дата"
-            android:textSize="14sp" />
+            android:hint="@string/fragment_note_date"
+            android:textSize="@dimen/recycler_item_text_size" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

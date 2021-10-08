@@ -8,18 +8,18 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="387dp"
+        android:layout_width="@dimen/text_view_layout_width"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:text='Это приложение разработано в рамках курса "Разработка приложений в Android Studio"'
+        android:layout_marginStart="@dimen/text_view_layout_margin"
+        android:layout_marginLeft="@dimen/text_view_layout_margin"
+        android:layout_marginEnd="@dimen/text_view_layout_margin"
+        android:layout_marginRight="@dimen/text_view_layout_margin"
+        android:text='@string/about_info'
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/layout_constraintHorizontal_bias"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.156"></TextView>
+        app:layout_constraintVertical_bias="@dimen/layout_constraintVertical_bias" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
